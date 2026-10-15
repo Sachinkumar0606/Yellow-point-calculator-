@@ -90,6 +90,24 @@ Files in this app:
 
 ---
 
+## Level 2 — what changed
+
+1. **Admin login with username + password** — not just a PIN.
+   Username **Sachin Kumar**, password **7681952023** (change `ADMIN_USER` / `ADMIN_PIN`
+   at the top of `index.html`). The username check ignores capitals.
+2. **Log out** button on the admin dashboard.
+3. **Tap any number → Call / WhatsApp / Copy** sheet — on shops *and* your footer number.
+4. **New landing page** with the 3 steps and a "What you can do" feature list.
+5. **Liquid-glass theme (iOS-style)** added to the theme button.
+   Tap it to cycle: Auto → Light → Dark → **Liquid glass** → Auto.
+6. **Clearer cloud status** — says **"Local only"** (not "Offline"), **"Cloud…"** while
+   connecting, and **"● Live"** when synced.
+7. **Setup steps now inside the app** — the Admin dashboard shows the Firebase steps
+   right there (plus the full version here in the README).
+8. **More help** — expanded "How it works" sheet (points, tours, amounts, WhatsApp, backup, admin).
+9. **Alignment fixed** — pop-ups are centered cards on desktop and bottom sheets on phones,
+   so nothing overflows.
+
 ## Level 1 — what changed from the original
 
 1. **Theme switch** – auto / light / dark button in the top bar (remembers your choice).
